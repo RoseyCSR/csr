@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
     if (username === "user" && password === "123") {
         alert("You have successfully logged in.");
         location.reload();
-    } else {
+    } else 
         alert("Wrong password or username.");
     }
-})
+)
