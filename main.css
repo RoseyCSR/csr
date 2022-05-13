@@ -1,5 +1,5 @@
 body {
-  background-color: #FAF9F6;
+  background-image: linear-gradient(to left, #FAF9F6, #D0D3CC);
   width: 800px;
   border: 10px;
   margin: auto;
@@ -9,7 +9,7 @@ body {
   background-color: #F1F1F1;
   text-align: center;
   padding: 1rem;
-  font-family: 'Gill Sans';
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-bottom: 1rem;
   margin-top: 2rem;
