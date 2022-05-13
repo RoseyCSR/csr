@@ -1,0 +1,20 @@
+body {
+  background-color: #FAF9F6;
+}
+
+.heading {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Gill Sans';
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+p {
+  background-color: #F1F1F1;
+  font-family: 'Gill Sans';
+  text-align: center;
+  padding: 20px;
+  width: auto;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
