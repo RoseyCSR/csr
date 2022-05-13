@@ -2,8 +2,10 @@
 <html>
 <title>CSR</title>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="main.css">
+<script defer src="app.js"></script>
 </head>
 <body>
 <div class="heading">
@@ -14,8 +16,10 @@
   <a href="contact.html">Contact</a>
   <a href="login.html" style="color: #A46877; float: right;">Login</a>
 </ul>
-<p>
-Logging in...
-</p>
+    <form id="login-form" class="loginpage">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+        <input type="submit" value="Login" id="login-form-submit">
+    </form>
 </body>
 </html>
